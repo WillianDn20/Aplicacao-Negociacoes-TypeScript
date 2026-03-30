@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "app/dist/js", //Onde vai ser gravado os arquivos compilados do ts
+        "target": "ES6", //Determina a visão js que será escrita o código compilado
+        "noEmitOnError": true, //Impede que seja gerado um arquivos js, euqanto houver erro no ts
+        "noImplicitAny": true, //Impossibilita do typescript aceitar qualquer tipo na svariaveis( int, float, string etc) e funciona comente variaveis com tipos declarados
+        "removeComments": true, //Remove comentários que estão no ts do js
+        "strictNullChecks": true, //Da erro se tiver algum lugar no código que retorne null
+        "experimentalDecorators": true, //Ativa os decoratos para funcionar no código
+        "sourceMap": true //Compartilha com o navegador o coódigo ts, além do js
+    },
+    "include": [
+        "app/src/**/*" //Diz onde estão os arquivo ts que devem ser compilados 
+    ]
+}
