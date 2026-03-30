@@ -53,5 +53,3 @@ Aplicação de negociações desenvolvida em TypeScript, demonstrando controle d
 
 Este projeto serve como base para aprendizado de TypeScript e demonstra padrões de estruturação de código em uma aplicação front-end simples.
 # Aplicacao-Negociacoes-TypeScript
-# Aplicacao-Negociacoes-TypeScript
-# Aplicacao-Negociacoes-TypeScript
